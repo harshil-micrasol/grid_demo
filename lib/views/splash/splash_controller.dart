@@ -1,13 +1,11 @@
 import 'package:get/get.dart';
 
-import '../../route/app_routes.dart';
-
 class SplashController extends GetxController {
   navigate() async {
     await Future.delayed(
       const Duration(seconds: 1),
       () {
-        Get.offAllNamed(AppRoutes.dashboardScreen);
+        // Get.offAllNamed(AppRoutes.dashboardScreen);
       },
     );
   }

@@ -174,6 +174,7 @@ class InfoAdvice extends StatelessWidget {
             child: Container(
               alignment: Alignment.center,
               child: DataTable(
+                // ignore: deprecated_member_use
                 dataRowHeight: 25,
                 headingRowHeight: 25,
                 border: const TableBorder(horizontalInside: BorderSide(color: Colors.white)),
